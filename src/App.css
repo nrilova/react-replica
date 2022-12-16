@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +36,205 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li{
+  display: inline;
+  padding: 50px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-top: 20px;
+}
+
+
+
+.logo{
+
+margin-right: 15px;
+}
+
+h1{
+  color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+  padding-right: 8px;
+}
+
+.link:hover{
+  color:#bc3a80;
+  text-decoration: none;
+}
+
+.text{
+  color: white;
+}
+
+
+.pagina1{
+  display: flex;
+}
+
+.girl{
+  width: 26rem;
+  margin-left: 16rem;
+  margin-top: 10rem;
+}
+
+
+
+.colum2{
+  margin-top: 18rem;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pagina2{
+  background-color: #322f3e;
+  display: flex;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+p{
+  color: white;
+}
+
+
+
+.colum2-1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20rem;
+  gap: 2rem;
+  
+}
+.items{
+  display: flex;
+  gap: 2rem;
+}
+
+.item1{
+  background-color: #202027;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.charts{
+  width: 2rem;
+}
+
+.item2{
+  background-color: #202027;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.albums{
+  width: 2rem;
+}
+
+.item3{
+  background-color: #202027;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.more{
+  width: 2rem;
+}
+
+.covers{
+  width: 20rem;
+  margin-left: 3rem;
+}
+
+.footer{
+  background-color: #202027;
+  display: flex;
+  padding-top: 20px;
+}
+
+.nav-footer{
+display: flex;
+padding-left:260px ;
+}
+
+.nav-rrss{
+padding-left:260px ;
+}
+
+.join{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 7rem;
+  padding-top: 6rem;
+}
+
+.title3{
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+  font-weight: 600;
+}
+
+
+
+.formulario{
+text-align: left;
+color: white;
+background-color: #202027;
+border-radius: 10%;
+}
+
+form.formulario{
+padding-left: 3rem;
+padding-right: 3rem;
+padding-top: 1rem;
+padding-bottom: 1.5rem;
+width: 30rem;
+border-radius: 20px;
+}
+
+button.buttonlink-2.btn.btn-primary{
+padding-left: 10.3rem;
+padding-right: 10.3rem;
+font-size: 12px;
+background-color: #1762A7;
+border-color: #1762A7;
+}
+
+input#formBasicEmail.form-control{
+  background-color: #202027;
+  border:1px solid #596da0 ;
+  box-shadow: #596da0;
+  color: white;
+
+}
+
+input#formBasicPassword.form-control{
+  background-color: #202027;
+  border:1px solid #596da0 ;
+  box-shadow: #596da0;
+  color: white;
 }
